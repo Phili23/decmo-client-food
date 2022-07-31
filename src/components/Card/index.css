@@ -1,0 +1,291 @@
+.card {
+	
+	border: 1px solid rgba(45, 0, 75, 0.489);
+	border-radius: 10px;
+	background-color: teal;
+	box-shadow: 2px 2px 40px rgba(248, 247, 250, 0.733);
+	width: 300px;
+	height: 250px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: flex;
+	flex-direction: column;
+	/* padding: 10px; */
+	box-sizing: border-box;
+}
+
+
+.heartp{
+    display: none;
+    position:absolute;
+    z-index:10;      
+    margin: -3px -3px -3px -6px ;
+    width: 100%;
+    font-size: 20px;
+	color:red
+}
+
+
+.heart:hover .heartp{
+    display:flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-shadow: 0 8px 10px #000000, 1px -2px 1px #000000;
+    color: #fff;
+}
+
+.star:hover .starp{
+    display:flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-shadow: 0 8px 10px #000000, 1px -2px 1px #000000;
+    color: #fff;
+}
+
+.nameFood {
+	
+		text-align: center;
+		 height: auto;
+		 text-decoration: none;
+		 font-size: 55px;
+		 color: orange ;
+		 display:inline-block;
+		 text-align:center;
+		 list-style: none;
+     font-family: italic;
+    font-style: oblique;
+	text-shadow: 0 8px 12px black;
+
+}
+.nameType {
+	
+	text-align: center;
+	 height: 20px;
+	 text-decoration: none;
+	 padding: 0 1px 0 1px;
+	 font-size: 18px;
+	color: black ;
+	 
+	  display:inline-block; 
+	 text-align:center;
+	 list-style: none;
+ font-family: italic;
+font-style: oblique;
+text-shadow: 0 8px 10px orange, 1px -2px 1px orange;
+
+}
+
+
+
+
+.nameHeals {
+	margin-top: 10px;
+	text-align: center;
+	 height: 10px;
+	 text-decoration: none;
+	 padding: 0 0 0 1px;
+	 font-size: 18px;
+	 font-size: 14px;
+	 color: rgb(155, 21, 21) ;
+	 
+	  display:inline-block; 
+	 text-align:center;
+	 list-style: none;
+ font-family: italic;
+font-style: oblique;
+ text-shadow: 0 8px 10px rgb(22, 22, 21), 1px -2px 1px orange;
+
+}
+
+
+.nameDiets {
+    width: 210px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .imga1{
+	width: 312px;
+	height: 218px;
+	margin: 20px 0px 0px 0px; 
+	border-radius: 4px;
+	box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.55); 
+	box-sizing: border-box;   
+	backdrop-filter:blur(7.5px); 
+  }
+
+  
+.card-containers1 {
+	margin-top: 30px;
+	margin: 20px;
+	/* padding: 257 146px; */
+	margin-left: 2px; 
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-right: 2px; 
+	display:flex;
+	text-align: center;
+	justify-content:center;
+	display:flex;
+	order:1;
+	width: 200px;
+	height: auto;
+	border-radius:8px;
+	border: 0.5px solid gray;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+	overflow: hidden;
+   
+	text-align: center;
+	transition: all 0.25s;
+	transform: translateY(-1px);
+	box-shadow: 5px 1px 5px rgba(0,0,0,0.2);
+	display: flex;
+	opacity: 1;
+	transform: translate(0);
+	/* padding: 10px; */
+	border-color: teal;
+	float:right;
+	flex-direction:column;
+	justify-content: center;
+	text-decoration:none;
+	 font-size: 16px;
+	font-weight: 500;
+	font-family: 'Quicksand', sans-serif;
+	transition: all 250ms ease;
+	flex-direction:column;
+	backdrop-filter:blur(7.5px);
+	box-sizing: border-box;
+	
+  } 
+
+  .card-containers1:hover{
+	box-shadow: 10px 1px 20px rgba(0,0,0,0.8);  
+	transform: translateY(-50%);
+	-webkit-box-shadow: 16px 27px 38px -3px rgba(13,1,1,1);
+	-moz-box-shadow: 16px 27px 38px -3px rgba(13,1,1,1);
+	box-shadow: 16px 27px 38px -3px rgba(13,1,1,1);
+	  
+	
+  }
+
+  .card-containers {
+	margin-left: 10px; 
+	flex-wrap: wrap;
+	justify-content: center;
+	/* margin-right:10px; 
+	padding-left: 10px;
+	padding-right: 60px; */
+	/* padding: 5px 5px 5px 5px ; */
+	
+	display:flex;
+	text-align: center;
+	display:flex;
+	order:1;
+	
+	border-radius:8px;
+	border: 0.5px solid gray;
+	box-shadow: 10px 2px 2px rgba(0,0,0,0.2);
+	overflow: hidden;   
+	text-align: center;
+	transition: all 0.25s;
+	transform: translateY(-1px);
+	box-shadow: 5px 1px 5px rgba(0,0,0,0.2);
+	display: flex;
+	opacity: 1;
+	transform: translate(0);
+	
+	border-color: teal;
+	float:right;
+	flex-direction:column;
+	justify-content: center;
+	text-decoration:none;
+	 font-size: 16px;
+	font-weight: 500;
+	font-family: 'Quicksand', sans-serif;
+	transition: all 250ms ease;
+	flex-direction:column;
+	backdrop-filter:blur(7.5px);
+	box-sizing: border-box;	
+  }
+  
+  
+  .columnas{
+
+	/* margin-left: 8px;  */
+  
+  /* margin-right: 8px; */
+	/* border-radius: 100px; */
+	display:flex;
+	text-align: center;
+	justify-content:center;
+   /*  padding-bottom: auto;
+	display:inline-block;  */
+	box-sizing: border-box;
+	  
+  }
+  
+
+
+  .card-containers:hover{
+	box-shadow: 10px 1px 20px rgba(0,0,0,0.8);  
+	transform: translateY(-50%);
+	-webkit-box-shadow: 16px 27px 38px -3px rgba(13,1,1,1);
+	-moz-box-shadow: 16px 27px 38px -3px rgba(13,1,1,1);
+	box-shadow: 16px 27px 38px -3px rgba(13,1,1,1);
+	  
+	
+  }
+
+
+  
+.recipeType{
+	text-decoration: none;
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	width: 50%;
+	height: auto;
+	background-color:green ;
+	opacity: 0.9;
+	margin: 0px 0px 0px 25%;
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	color:white;
+	font-size: 16px;
+	border-radius: 5px;
+	border:solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.5);
+	list-style: none;
+	font-family: italic;
+	font-style: oblique;
+	list-style: none;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 2px;
+	vertical-align: top;
+	
+  }
+  
+  .recipeHealth{
+	display:flex;
+	margin-bottom: 10px;
+	align-items: center;
+	flex-direction: column;
+	width: 70%;
+	background-color:rgb(172, 41, 41) ;
+	opacity: 0.9;
+	margin-left: 15%; 
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	color: white;
+	font-size: 12px;
+	border-radius: 5px;
+	border:solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.5);
+	list-style: none;
+	font-family: italic;
+	font-style: oblique;
+  }

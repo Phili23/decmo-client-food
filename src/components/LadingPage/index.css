@@ -1,0 +1,267 @@
+.hladingp{
+  color: cornsilk;
+  /* margin-top: 60px;
+  margin-left: 80px; */
+  font-size: 60px;
+
+  margin-top: 110px;
+  margin-left: 0px;
+  font-size: 60px;
+  position: center;
+}
+
+
+
+.hladingp:hover{
+  /* color: #1883ba;
+  background-color: #fff;
+  border: 16px #1883ba; */
+ /*  box-shadow: 0 0 40px rgb(106, 134, 134) inset; */
+ box-shadow: 0 0 40px teal inset
+ 
+}
+.buts{
+  height: 40px;
+  margin-left: 980px;
+  margin-top: 0px;
+  border-radius: 10px;
+  border-color: teal;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 32px;
+  background-color: transparent;
+  font-size: 1.5rem;
+  transition: box-shadow 0.2s ease-in-out;
+  padding:10px;
+  
+}
+
+.but:hover{
+  /* color: #1883ba;
+  background-color: #fff;
+  border: 16px #1883ba; */
+  box-shadow: 0 0 40px rgb(106, 134, 134) inset;
+}
+/* 
+body{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3-fuPLI7mHBW9N99Ow9XZ_F7Mq-_VyOlSI_f_X-JF74r7Wxx-THskWNovfy77S4xvuKQ&usqp=CAU') no-repeat center center fixed;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+.principal{
+  background:radial-gradient(center center, circle, black, #1162ac);
+ /*  display: flex; */
+ /*  width: 100vw;
+  height: 100vh; */
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3-fuPLI7mHBW9N99Ow9XZ_F7Mq-_VyOlSI_f_X-JF74r7Wxx-THskWNovfy77S4xvuKQ&usqp=CAU') ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+}
+.ptexto{
+  font-size: 16px;
+  color:white;
+  text-align: justify;
+  top:120px;
+}
+
+
+
+/*******/
+/*  */
+.page{
+/* background-image:url('./imagenes/herbs-spices-over-black-stone-600w-43120991811.webp.bmp');    */
+background-image: url(https://img.freepik.com/foto-gratis/comida-ingredientes_1220-4884.jpg?size=626&ext=jpg);
+  position: fixed;
+width: 100%;
+height: 100%;
+margin: -8px 0px 0px -8px;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100vw 100vh;
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  font-family: italic;
+  font-style: oblique;
+  font-weight: bold;
+  text-shadow: 0 8px 10px #231e23, 1px -2px 1px #231e23;
+}
+
+.ladingp{
+top:auto;
+margin-top: 70px;
+margin-bottom:-3px;
+margin-left:center;
+padding-left:120px;
+padding-right:center;
+   /* display: flex; */
+  /* flex-direction: column; */
+  color: red;   
+  border-radius: 85px;
+  width: 100%;
+ /*  margin: 50px; */
+  text-shadow: 0 80px 80px #522121, 1px -2px 1px #455221; /*sombra del texto*/
+  text-align:center;
+  font-size: 90px;
+  
+}
+
+
+.landing h4{
+  font-size: 90px;
+}
+
+.landingp{
+  margin-top: 60px;
+  font-size: 20px; 
+  color:rgb(255, 145, 0);
+  padding-left:240px;
+padding-right:center;
+}
+
+.btn { 
+  margin: auto;
+  /* Establesco el posicionamiento para que el boton este centrado */
+  display: inline-block;
+  /* Cambio a inline-block para que nos permita darle dimensiones */
+  text-decoration: none;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+  /* Permite que el ancho y el alto contengan los objetos hijos */
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  /* Establesco las transiciones con la funcion cubic-bezier */
+}
+.btn div { /*Establesco el circulo que se va a estirar para formar el fondo */
+  position: absolute;
+  background-color: #AF2D2D;
+  height: 100%;
+  width: 50px;
+  /* Ancho inicial del boton */
+  border-radius: 25px;
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+.btn div span { /*El span lo usaremos para hacer la flecha*/
+  display: block;
+  /* Por defecto tra display:inline, el block nos permite modificar dimensiones */
+  position: absolute;
+  /* Para acomodarlo en left y top */
+  top: calc(50% - 1px); /* calc nos permite realizar calculos aritemticos
+  lo usaremos para calcular la posicion de la flecha vertical*/
+  left: 8px;
+  height: 2px;
+  width: 0px; /*la flecha vertical comienza en 0*/
+  background-color: #f6e5e9; /* color de la flecha vertical*/
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+.btn div span::before { /* :before, agregar contenido antes*/
+  display: block;
+  content: ""; /* para que un antes o despues puedan existir debe tener un contenido*/
+  height: 2px;
+  width: 10px;
+  background-color: #f6e5e9;
+  position:absolute;
+  top: -3px; /*para que suba*/
+  left: 13px;
+  transform: rotate(45deg); /*para que haga una diagonal hacia abajo "\" */
+}
+/* se usaran before y after para dibujar las puntas de la flecha*/
+.btn div span::after { /* :after, agregar contenido despues*/
+  display: block;
+  content: ""; /* para que un antes o despues puedan existir debe tener un contenido*/
+  height: 2px;
+  width: 10px;
+  background-color: #f6e5e9;
+  position:absolute;
+  top: 3px; /*para que baje*/
+  left: 13px; /*en ambos casos va a posicionar el objeto pasando el <span>*/
+  transform: rotate(-45deg); /*para que haga una diagonal hacia arriba "/" */
+}
+
+/*movimiento*/
+
+.btn:hover div {
+  width: 100%; /*cambiamos el ancho */
+}
+
+.btn:hover div span {
+  left:25%; /*movemos la flecha un cuarto del tamaño del boton*/
+  width: 20px; /*cambiamos el ancho */
+}
+
+.btn p {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  text-shadow: 0 8px 10px #231e23, 1px -2px 1px #231e23;
+  position: absolute;
+  top: calc(50% - 28px);
+  left: calc(50% - 13.5px);
+  z-index: 1;
+  color: #f6e5e9;
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+}
+.btn:hover p {
+  color: #f6e5e9;
+
+}
+
+
+.butt1{
+height: 40px;
+font-family:'century Gothic', sans-serif;
+margin-top: 50px;
+border-radius: 10px;
+border-color:  green;
+color: green;
+cursor: pointer;
+padding: 10px;
+background-color: transparent;
+font-size: 1rem;
+transition: box-shadow 0.2s ease-in-out;
+}
+
+.butt1:hover{
+ color:rgb(215, 223, 215);
+background-color: green;
+border: 16px #131516;
+box-shadow: 0 0 40px rgb(2, 34, 44) inset;
+}
+
+.butt2{
+  height: 40px;
+  font-family:'century Gothic', sans-serif;
+  margin-top: 50px;
+  margin-left: 80%;
+  border-radius: 10px;
+  border-color:  green;
+  color: green;
+  cursor: pointer;
+  width: 120px;
+  padding: 10px;
+  background-color: transparent;
+  font-size: 1rem;
+  transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .butt2:hover{
+    color:rgb(215, 223, 215);
+    background-color: green;
+    border: 16px #131516;
+    box-shadow: 0 0 40px rgb(2, 34, 44) inset;
+    cursor:pointer;
+  }
+
+textarea{
+min-height: 100px;
+max-height: 200px;
+max-width: 100%;
+}

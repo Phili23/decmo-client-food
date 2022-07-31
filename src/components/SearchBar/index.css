@@ -1,0 +1,110 @@
+
+.input2{
+    display: inline-block;
+   /*  flex-direction: row; */
+}
+
+.input2 button{
+    float: left;
+    width: 50px;
+    padding: 10px;
+    background: #f6e5e9;
+        color: #214252;
+        font-size: 17px;
+        border: 4px solid #214252;
+        border-left: none;
+        cursor: pointer;   
+        border-radius: 30px;
+    }
+    .input2 button:hover{
+        opacity: 0.7;
+        background-color: #CE6262;
+        cursor:pointer;
+    }
+    .input2 input2{
+    text-align: center;
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid #214252;
+        float: left;
+       /*  width: 80%; */
+        background: #FFF;
+      /*   border-radius: 25px; */
+    }
+
+    .titulos{
+        border-radius:4px;
+            text-decoration:none;
+        color:black;
+        font-family:'century Gothic', sans-serif;
+        font-weight:bold;
+        border:1px solid;
+        padding: 2px 8px;
+       
+      }
+      .titulos:hover{
+        color: teal;
+    }
+    
+.input3{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 7px;
+    background:whitesmoke;
+    border-radius: 4px;
+    height: 24px;
+    font-size: 16px red italic ;
+    font-style: oblique;
+    line-height: 5px;
+    padding: 7px;
+    transition: .3s ease all ;
+    border:1px solid teal;
+    box-sizing: border-box;
+    
+  
+}
+.input2{
+    display: flex;
+    flex-direction: row;
+}
+.input2:hover{
+      outline: none;/*quita el subrayado*/
+    box-shadow: 6px 0px 30px rgb(17, 17, 27) ;
+    box-sizing: border-box;
+   }
+  
+
+   .input4{
+    display: flex;
+    flex-direction: row;
+}
+
+.input4 button{
+    float: left;
+    width: 20%;
+    margin-left:150px;
+    padding: 10px;
+    background: #f6e5e9;
+        color: #214252;
+        font-size: 17px;
+        border: 1px solid #214252;
+        border-left: none;
+        cursor: pointer;   
+        border-radius: 30px;
+    }
+    .input4 button:hover{
+        opacity: 0.7;
+        background-color: #CE6262;
+        cursor:pointer;
+    }
+    .input4 input{
+    text-align: center;
+        padding: 10px;
+        font-size: 17px;
+        border: 1px solid #214252;
+        float: left;
+        width: 80%;
+        background: #FFF;
+        border-radius: 25px;
+    }

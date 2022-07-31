@@ -1,0 +1,414 @@
+.alerta-ok{
+    background-color: rgb(109,211,109);
+    color:rgb(2,103,2)
+}
+
+.alerta-error{
+    background-color: rgb(230,78,78);
+    color: var(--blanco);
+    font-size: 12px;
+    margin-bottom: 0;
+    display: none;
+}
+
+/* input{
+    position:relative;
+    z-index: index 90;
+} */
+.colores{
+    border:'#0075ff';
+    /* error:#bb2929;
+    exito:#led12d; */
+
+}
+
+
+.input{
+    font-family: italic;
+    font-style: oblique;
+    color:black ;
+    width:100%;
+    background: rgb(238, 219, 184);
+    border-radius: 3px;
+    height: 22px;
+    line-height : 25px;
+    margin:3px 3px 3px 3px;
+    padding: 0 8px 0 10px;
+    transition: .3s ease all ;
+    border:3px solid transparent;
+     box-sizing: border-box;
+  
+}
+
+.input:focus{
+    border:7px solido black ;  
+    outline: none;/*quita el subrayado*/
+    box-shadow: 6px 0px 30px red ;
+   }
+
+   .inputText{
+    font-family: italic;
+    font-style: oblique;
+    color:black ;
+    width:100%;
+    background: rgb(238, 219, 184);
+    border-radius: 3px;
+    height:15px;
+    line-height : 25px;
+    margin:3px 0 3px 3px;
+    padding: 0 8px 0 10px;
+    transition: .3s ease all ;
+    border:3px solid transparent;
+    box-sizing: border-box;
+  
+}
+.inputText:focus{
+    border:7px solido black ;  
+    outline: none;/*quita el subrayado*/
+    box-shadow: 6px 0px 30px red ;
+   }
+
+
+
+   .inputp{
+    margin-bottom:2px;
+    border-top: 3px;
+    margin-left: 110px;
+    width:30%;
+    background: rgb(238, 219, 184);
+    border-radius: 3px;
+    height: 26px;
+    line-height: 5px;
+    padding: 0 10px 0 10px;
+    transition: .3s ease all ;
+    border:3px solid transparent;
+    text-indent: 2em;
+    font-size: 12px;
+    box-sizing: border-box;
+   
+  
+}
+.inputp:focus{
+    border:7px solido black ;  
+    outline: none;/*quita el subrayado*/
+    box-shadow: 6px 0px 30px red ;
+   }
+
+   
+
+.input1{
+    width: 45%;
+    padding: 3px;
+    margin-top: 3px;
+    margin-bottom: 6px;
+    background:  rgb(238, 219, 184);
+    border-radius: 3px;
+    height: auto;
+    font-size: 15px red;
+    font-family: italic;
+    font-style: oblique;
+    color:black ;
+    line-height: 5px;
+    padding: auto;
+    transition: .3s ease all ;
+    border:3px solid transparent;
+    box-sizing: border-box;
+  
+}
+.input1:focus{
+    border:7px solido black ;  
+    outline: none;/*quita el subrayado*/
+    box-shadow: 6px 0px 30px rgb(17, 17, 17) ;
+    box-sizing: border-box;
+   }
+  
+   .formulario{
+       display: grid;
+       padding-left: 10px;
+       grid-template-columns: 1fr 1fr  ;
+       gap: 20px;/*separacion de columnas*/
+       @medi(max-width:800px) {
+           grid: template columns 1fr;
+       }
+
+
+   }
+   .label11{
+       display :block;
+       font-weight :700px;
+       padding:5px;
+       min-height: 20px;
+       cursor:pointer;
+       color: green;
+       position: absolute;
+       margin-right:3px;
+       width: auto;
+       
+      
+   }
+
+   .contenedorBoton{
+       display:flex;
+       justify-content: column;
+       align-items: center;
+       grid-column: span 2;
+
+   }
+
+   .button1{
+       height: 25px;
+       line-height: 25px;
+       width: 10%;
+       background-color: rgb(202, 101, 101);
+       color: #fff;
+       font-weight: bold;
+       border:none;
+       border-radius: 3px;
+       cursor: pointer;
+       transition: .1s ease all;
+    }
+
+       .button1:hover{
+           box-shadow: 3px 0px 30px rgb(122, 76, 76) ;
+
+       }
+
+
+       .btn5{
+    
+        background-color: rgb(2, 36, 36);
+        color: aqua;
+       
+        
+      }
+   .p{
+       font-size: 14px;
+       color:aqua;
+       display: none;
+   }
+
+   .msg{
+       height: 45px;
+       line-height: 45px;
+       padding: 0px 15px;
+       border-radius: 3px;
+       grid-column: span 2;
+      
+   }
+    
+.butt1{
+    margin-top: 40px;
+    height: 40px;
+    font-family: italic;
+    font-style: oblique;
+    margin-top: 5px;
+    border-radius: 10px;
+    border-color:  green;
+    color: green;
+    cursor: pointer;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 1rem;
+    transition: box-shadow 0.2s ease-in-out;
+    box-shadow: 0 0 40px rgb(2, 34, 44) inset;
+    font-weight:bold;
+  }
+  
+  .butt1:hover{
+     color:rgb(215, 223, 215);
+    background-color: green;
+    border: 16px #131516;
+    box-shadow: 0 0 40px rgb(2, 34, 44) inset;
+    cursor:pointer;
+  }
+
+  .creater-form{
+    margin-top: 5px;
+    order:1;
+    display:flex;
+    flex-direction: column;
+    width: 28em;
+    padding-bottom: 10px;
+    font-family: italic;
+    font-style: oblique;
+    font-weight: bold;
+    border-radius: 3px;
+    color: blue;
+    text-decoration: none;
+    font-size: 15px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+ .pe{
+    color:aqua;
+ }
+
+.creater{
+    max-width: 100%;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+    width: 45%; 
+    opacity: 0.8; 
+    margin: auto;
+    margin: 15px 0px 15px 30% ; 
+    font-family: italic;
+    font-style: oblique;
+    font-weight: bold;
+    border: 10px;
+    color: #f1f0f0;
+    font-size: 18px;
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.5);
+    color: #ece8e8; 
+    border-radius: 8px;
+    border:solid gray 6px;
+    box-shadow: 0px 14px 80px rgba(0, 0, 0, 0.85);
+    padding: auto;
+    box-sizing: border-box;
+    background-color: black;
+    background-size: 100vw 100vh;
+    position:relative;
+    margin-bottom: 12px;
+}
+@media(max-width:480px){
+    .creater{
+        width: 100%;
+    }
+}
+
+@media(max-width:480px){
+    .body{
+        width: 100%;
+    }
+  }
+
+
+  .puntu{
+      width: 20%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;/*separacion de columnas*/
+    @media(max-width:800px) {
+        grid: template columns 1fr;
+        
+
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8px;
+        width:50%;
+        background: rgb(196, 136, 25);
+        border-radius: 3px;
+        height: auto;
+        line-height: 5px;
+        padding: 0 20px 0 10px;
+        transition: .3s ease all ;
+        border:3px solid transparent;
+        padding: 7px;
+        box-sizing: border-box;
+  }}
+
+
+  .puntu:focus{
+    border:7px solido black ;  
+    outline: none;/*quita el subrayado*/
+    box-shadow: 6px 0px 30px red ;
+    box-sizing: border-box;
+   }
+  
+  .error {
+    margin:3px 3px 3px 3px;
+    padding: 3px 3px 3px 3px;
+    display: flex;
+    justify-content:first baseline;
+    font-family: 'Benne', serif;
+    color: red;
+    font-size: 10px;
+    background:white;
+    width: auto;
+}
+
+
+.input5{
+    width: 45%;
+    padding: 7px;
+    background: rgb(198, 212, 198);
+    border-radius: 3px;
+    height: auto;
+    font-size: 24 red;
+    line-height: 5px;
+    padding: auto;
+    transition: .3s ease all ;
+    border:3px solid transparent;
+    box-sizing: border-box;
+  
+}
+
+.butt1{
+    margin-top: 40px;
+    height: 40px;
+    font-family: italic;
+    font-style: oblique;
+    margin-top: 5px;
+    border-radius: 10px;
+    border-color:  green;
+    color: green;
+    cursor: pointer;
+    padding: 10px;
+    background-color: transparent;
+    font-size: 1rem;
+    transition: box-shadow 0.2s ease-in-out;
+    box-shadow: 0 0 40px rgb(2, 34, 44) inset;
+    font-weight:bold;
+  }
+  
+  .butt1:hover{
+     color:rgb(215, 223, 215);
+    background-color: green;
+    border: 16px #131516;
+    box-shadow: 0 0 40px rgb(2, 34, 44) inset;
+    cursor:pointer;
+  }
+  
+
+  
+.creater1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: italic;
+    font-style: oblique;
+    font-weight: bold;
+    border: 10px;
+    color:white;
+    font-size: 18px;
+    border:solid rgba(0, 0, 0, 0.2) 6px;
+    box-sizing: border-box;
+    background-size: 100vw 100vh;
+}
+
+
+.title1{
+    background-color:rgb(172, 41, 41) ;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    box-shadow: 4px 4px 10px 10px rgba(0, 0, 0, 0.55);    
+    font-family: italic;
+    font-style: oblique;
+    font-size: 25px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom:10px;
+  }
+
+  

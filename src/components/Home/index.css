@@ -1,0 +1,288 @@
+.card-container12s{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+   /*  padding: 0px 10px 0px 20px; */
+  /*  padding: 5px 5px 5px 5px ; */
+    border:red;
+    backdrop-filter:blur(7.5px); 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: auto;
+    
+  justify-content: space-around;
+    
+    }
+
+    .card-containers12:hover{
+      box-shadow: 10px 1px 20px teal;  
+      transform: translateY(-50%);
+      -webkit-box-shadow: 16px 27px 38px -3px teal;
+      -moz-box-shadow: 16px 27px 38px -3px teal;
+      box-shadow: 16px 27px 38px -3px teal;
+        
+      
+    }
+    .aline{
+      text-align: center; 
+    }
+
+    .imga{
+      width: auto;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 4px 4px 10px 10px teal; 
+      box-sizing: border-box;   
+    }
+
+    
+    .imga:hover{
+      color:rgb(215, 223, 215);
+      background-color: green;
+      border: 16px green;
+      box-shadow: 0 0 50px  teal inset;
+    }
+      
+    .butt{
+      list-style: none;
+      font-family: italic white;
+      font-style: oblique;
+      color: white;
+      margin-top: 5px;
+      border-radius: 10px;
+      border-color:  green;
+      color: green;
+      cursor: pointer;
+      padding: 10px;
+      background-color: transparent;
+      font-size: 1rem;
+      transition: box-shadow 0.2s ease-in-out;
+      font-weight:bold;
+      box-shadow: 0 0 40px rgb(2, 34, 44) inset;
+   
+    }
+    
+    .butt:hover{
+      color:rgb(215, 223, 215);
+      background-color: green;
+      border: 16px green;
+      box-shadow: 0 0 40px rgb(2, 34, 44) inset;
+    }
+
+    .container-cards{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      grid-column-gap: 20px;
+      grid-row-gap: 50px;
+      /* padding: 0px 10px 0px 20px; */
+      justify-content: center;
+      backdrop-filter:blur(7.5px); 
+      flex-direction: row;
+      
+  }
+
+  .card-containers {
+   
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: 10px; 
+    margin-left: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    display:flex;
+    text-align: center;
+    justify-content:center;
+    display:flex;
+    order:1;
+    width: 328px;
+    height:425px;
+    border-radius:8px;
+    border: 0.5px solid rgb(10, 163, 252);
+    box-shadow: 0 2px 2px teal;
+    overflow: hidden;
+   
+    text-align: center;
+    transition: all 0.25s;
+    transform: translateY(-1px);
+    box-shadow: 5px 1px 5px teal;
+    display: flex;
+    opacity: 1;
+    transform: translate(0);
+   
+    border-color: teal;
+    float:right;
+    flex-direction:column;
+    justify-content: center;
+    text-decoration:none;
+     font-size: 16px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    transition: all 250ms ease;
+    flex-direction:column;
+    backdrop-filter:blur(7.5px);   
+  }
+  
+  
+  .card-containers:hover{
+    box-shadow: 10px 1px 20px white;  
+    transform: translateY(-50%);
+    -webkit-box-shadow: 16px 27px 38px -3px rgba(13,1,1,1);
+    -moz-box-shadow: 16px 27px 38px -3px rgba(13,1,1,1);
+    box-shadow: 16px 27px 38px -3px white;
+      
+    
+  }
+
+  .card {	
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(55, 0, 71, 0.09);
+    box-shadow: 2px 2px 40px white;
+    width: 300px;
+    height: 250px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  
+  .heartp{
+      display: none;
+      position:absolute;
+      z-index:10;      
+      margin: -3px -3px -3px -6px ;
+      width: 100%;
+      font-size: 20px;
+    color:red
+  }
+  
+  
+  .heart:hover .heartp{
+      display:flex;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.1);
+      text-shadow: 0 8px 10px #000000, 1px -2px 1px #000000;
+      color: #fff;
+  }
+  
+  .star:hover .starp{
+      display:flex;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.1);
+      text-shadow: 0 8px 10px #000000, 1px -2px 1px #000000;
+      color: #fff;
+  }
+  
+  .nameFood {
+       text-align: center;
+       height: 20px;
+       text-decoration: none;
+       padding: 0 1px 0 1px;
+       font-size: 16px;    
+  }
+  
+  .butt3{
+    height: 40px;
+    list-style: none;
+    font-family: italic;
+    font-style: oblique;
+    margin-top: 2px;
+    border-radius: 3px;
+    border-color: teal;
+    color:#fff;
+    cursor: pointer;
+    padding:1px 2px;
+    background-color: transparent;
+    font-size: 12px;
+    transition: box-shadow 0.2s ease-in-out;
+    font-weight:bold;
+     box-shadow: 0 0 40px rgb(2, 34, 44) inset;
+}
+
+.butt3:hover{
+    color: green;
+    background-color: #fff;
+    color:rgb(215, 223, 215);
+      background-color: green;
+      border: 16px black;
+      box-shadow: 0 0 40px rgb(2, 34, 44) inset;
+}
+
+.titulos3{
+ /*  font-family:'century Gothic', sans-serif; */
+ list-style: none;
+ font-family: italic;
+ font-style: oblique;
+ /*  margin-top: 5px; */
+  border-radius: 3px;
+  border-color:  black;
+  color: white;
+  cursor: pointer;
+  padding: 0;
+  background-color: green;
+  font-size: 1rem;
+  transition: box-shadow 0.2s ease-in-out;
+  font-weight:bold;
+
+}
+.titulos3:hover{
+  
+  /* flex-direction: row; */
+  color:blue;
+  background-color:rgb(125, 160, 125);
+  border: 16px rgb(125, 160, 125);
+  box-shadow: 0 0 40px rgb(150, 155, 156) inset;
+}
+
+
+.titulos4{
+  list-style: none;
+  font-family: italic;
+  font-style: oblique;
+ /*  margin-top: 5px; */
+  border-radius: 3px;
+  border-color:  green;
+  color: green;
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+  font-size: 1rem;
+  transition: box-shadow 0.2s ease-in-out;
+  border-radius:4px;
+      text-decoration:none;
+  color:black;
+  font-family:'century Gothic', sans-serif;
+  font-weight:bold;
+  border:1px solid;
+  padding: 2px 8px;
+  font-weight:bold;
+ 
+}
+.titulos:hover{
+  color:rgb(215, 223, 215);
+  background-color: green;
+  border: 16px white;
+  box-shadow: 0 0 40px rgb(2, 34, 44) inset;
+}
+
+
+.titulos{
+  border-radius: 3px;
+  border-color:  green;
+  color: green;
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+  font-size: 1rem;
+  transition: box-shadow 0.2s ease-in-out;
+ 
+}
+.titulos:hover{
+  color: teal;
+}
+
