@@ -61,7 +61,6 @@ export function foodName(name) {
     };
 } */
 
-
 //filtro por id
  export function getDetail(id) {
     return async function (dispatch) {
@@ -92,7 +91,6 @@ export function detalles(id){
             })
     }
 } */
-
 
 //agregar una receta
 export function postFood(payload) {
@@ -159,16 +157,12 @@ export function SpooOrder(payload) {
     }
 }
 
-
-
-
 export function filterTypeDiets(payload) {
     return {
         type: 'FILTER_DIETS',
         payload
     }
 }
-
 
 export const loading = () => {
     return (dispatch) => {
@@ -191,14 +185,12 @@ export function reset() {
 }
 
 
-
 export function filterCreated(payload) {
     return {
         type: 'FILTER_CREATED',
         payload
     }
 }
-
 
 export function deleteDbFood(payload) {
     return async function (dispatch) {
