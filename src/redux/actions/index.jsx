@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl="https://demo-deploy-food.herokuapp.com"
+const baseUrl="https://demo-deploy-food-002.herokuapp.com"
 
 // trae todas las recetas
 export default function getFood() {
